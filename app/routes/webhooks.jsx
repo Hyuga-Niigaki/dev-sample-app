@@ -18,6 +18,14 @@ export const action = async ({ request }) => {
       }
 
       break;
+    case "ORDERS_CREATE":
+      if (payload) {
+        console.log(`payload: ${payload}`);
+        const order = payload;
+        console.log(`Order Total: ${order.total_price}`);
+      }
+      break;
+
     case "CUSTOMERS_DATA_REQUEST":
     case "CUSTOMERS_REDACT":
     case "SHOP_REDACT":

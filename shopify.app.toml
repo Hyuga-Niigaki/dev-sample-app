@@ -2,18 +2,18 @@
 
 name = "dev-sample-app"
 client_id = "570821f4900172bee5b0090e800ded66"
-application_url = "https://shall-together-settlement-opposition.trycloudflare.com"
+application_url = "https://outlet-cognitive-hosting-errors.trycloudflare.com"
 embedded = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,read_orders"
 
 [auth]
 redirect_urls = [
-  "https://shall-together-settlement-opposition.trycloudflare.com/auth/callback",
-  "https://shall-together-settlement-opposition.trycloudflare.com/auth/shopify/callback",
-  "https://shall-together-settlement-opposition.trycloudflare.com/api/auth/callback"
+  "https://outlet-cognitive-hosting-errors.trycloudflare.com/auth/callback",
+  "https://outlet-cognitive-hosting-errors.trycloudflare.com/auth/shopify/callback",
+  "https://outlet-cognitive-hosting-errors.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
