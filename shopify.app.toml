@@ -2,7 +2,7 @@
 
 name = "dev-sample-app"
 client_id = "570821f4900172bee5b0090e800ded66"
-application_url = "https://sip-vinyl-achievement-worldwide.trycloudflare.com"
+application_url = "https://graduates-mistake-classroom-circulation.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products,read_orders,write_payment_customizations"
 
 [auth]
 redirect_urls = [
-  "https://sip-vinyl-achievement-worldwide.trycloudflare.com/auth/callback",
-  "https://sip-vinyl-achievement-worldwide.trycloudflare.com/auth/shopify/callback",
-  "https://sip-vinyl-achievement-worldwide.trycloudflare.com/api/auth/callback"
+  "https://graduates-mistake-classroom-circulation.trycloudflare.com/auth/callback",
+  "https://graduates-mistake-classroom-circulation.trycloudflare.com/auth/shopify/callback",
+  "https://graduates-mistake-classroom-circulation.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

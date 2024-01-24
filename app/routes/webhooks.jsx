@@ -30,7 +30,7 @@ export const action = async ({ request }) => {
     case "CUSTOMERS_REDACT":
     case "SHOP_REDACT":
     default:
-      throw new Response("Unhandled webhook topic", { status: 404 });
+      throw new Response("Unhandled webhook topic", { status: 404 }, topic, shop, session, admin, payload);
   }
 
   throw new Response();
